@@ -33,11 +33,14 @@ Simple instructions to get the project running locally.
 6. **Run migrations and seed data**
     ```bash
     php artisan migrate:fresh --seed
-Default seeded user credentials:
 
-Email: test@example.com
-Password: password
-    
+
+Default seeded user credentials:
+<ul>
+    <li>Email: test@example.com</li>
+    <li>Password: password</li>
+</ul>
+
 7. **Install frontend dependencies**
    ```bash
    npm install
