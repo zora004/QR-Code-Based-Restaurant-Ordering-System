@@ -7,7 +7,7 @@
                     class="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium">Home</a>
                 <a href="{{ route('tables.index') }}"
                     class="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium">Tables</a>
-                <a href="#"
+                <a href="{{ route('menus.index') }}"
                     class="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium">Menu</a>
                 <a href="#"
                     class="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 font-medium">Orders</a>
