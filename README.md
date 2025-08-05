@@ -42,3 +42,19 @@ Simple instructions to get the project running locally.
 9. **Run the application
     ```bash
     php artisan serve
+
+## Troubleshooting
+
+Imagick Extension Error
+If you encounter an Imagick extension error when running the project locally:
+
+1. Download Imagick from:
+    <a href="https://imagemagick.org/archive/binaries/ImageMagick-7.1.2-0-Q16-HDRI-x64-dll.exe">ImageMagick Windows Binary</a>
+    and install it.
+2. Locate the ext directory in your PHP installation folder.
+3. Extract the Imagick ZIP file into the ext folder and follow the instructions in its README file.
+4. Extract the php_imagick ZIP file into the ext folder and follow the instructions in its README file.
+5. Enable Imagick in your php.ini file by adding:
+    ```ini
+    extension=imagick
+6. Restart your local server.
