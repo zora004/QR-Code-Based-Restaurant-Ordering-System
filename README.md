@@ -57,5 +57,5 @@ Imagick Extension Error
 4. Extract the php_imagick ZIP file into the ext folder and follow the instructions in its README file.
 5. Enable Imagick in your php.ini file by adding:
     ```ini
-    extension=imagick
+    extension=php_imagick
 6. Restart your local server.
